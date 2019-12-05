@@ -16,7 +16,8 @@ namespace Caliburn.Micro
     using FrameworkElement = global::Xamarin.Forms.VisualElement;
 #else
     using System.Windows;
-    using TriggerBase = System.Windows.Interactivity.TriggerBase;
+    using Microsoft.Xaml.Behaviors;
+    using TriggerBase = Microsoft.Xaml.Behaviors.TriggerBase;
 #endif
 
     /// <summary>

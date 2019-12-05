@@ -19,8 +19,9 @@ namespace Caliburn.Micro
     using DependencyObject = global::Xamarin.Forms.BindableObject;
 #else
     using System.Windows;
-    using System.Windows.Interactivity;
-    using TriggerBase = System.Windows.Interactivity.TriggerBase;
+    using Microsoft.Xaml.Behaviors;
+    using EventTrigger = Microsoft.Xaml.Behaviors.EventTrigger;
+    using TriggerBase = Microsoft.Xaml.Behaviors.TriggerBase;
 #endif
 
 

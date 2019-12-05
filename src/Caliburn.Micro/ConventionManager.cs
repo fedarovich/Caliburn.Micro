@@ -18,8 +18,9 @@
     using System.Windows.Controls.Primitives;
     using System.Windows.Data;
     using System.Windows.Markup;
-    using System.Windows.Shapes;    
-    using EventTrigger = System.Windows.Interactivity.EventTrigger;
+    using System.Windows.Shapes;
+    using Microsoft.Xaml.Behaviors;
+    using EventTrigger = Microsoft.Xaml.Behaviors.EventTrigger;
 #endif
 #if !SILVERLIGHT && !WinRT
     using System.Windows.Documents;

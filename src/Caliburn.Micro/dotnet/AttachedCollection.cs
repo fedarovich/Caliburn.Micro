@@ -2,7 +2,8 @@
     using System.Collections.Specialized;
     using System.Linq;
     using System.Windows;
-    using System.Windows.Interactivity;
+    using Microsoft.Xaml.Behaviors;
+    using EventTrigger = Microsoft.Xaml.Behaviors.EventTrigger;
 
     /// <summary>
     /// A collection that can exist as part of a behavior.

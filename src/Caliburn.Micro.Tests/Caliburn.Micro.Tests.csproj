@@ -4,7 +4,7 @@
     <ProjectGuid>{374C996D-59C3-426D-B6BD-D884348BE7C8}</ProjectGuid>
     <RootNamespace>Caliburn.Micro.Tests</RootNamespace>
     <AssemblyName>Caliburn.Micro.Tests</AssemblyName>
-    <TargetFramework>net45</TargetFramework>
+    <TargetFrameworks>net45;netcoreapp3.0;netcoreapp3.1</TargetFrameworks>
     <AssemblyTitle>Caliburn.Micro.WPF.Tests</AssemblyTitle>
     <Company>Microsoft</Company>
     <Product>Caliburn.Micro.WPF.Tests</Product>

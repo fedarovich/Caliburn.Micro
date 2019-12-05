@@ -28,9 +28,10 @@ namespace Caliburn.Micro
     using System.Text.RegularExpressions;
     using System.Windows;
     using System.Windows.Data;
-    using EventTrigger = System.Windows.Interactivity.EventTrigger;
-    using TriggerBase = System.Windows.Interactivity.TriggerBase;
-    using TriggerAction = System.Windows.Interactivity.TriggerAction;
+    using Microsoft.Xaml.Behaviors;
+    using EventTrigger = Microsoft.Xaml.Behaviors.EventTrigger;
+    using TriggerBase = Microsoft.Xaml.Behaviors.TriggerBase;
+    using TriggerAction = Microsoft.Xaml.Behaviors.TriggerAction;
     using System.Text;
 #endif
 

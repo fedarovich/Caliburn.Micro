@@ -19,7 +19,8 @@ namespace Caliburn.Micro
     using Microsoft.Xaml.Interactivity;
 #else
     using System.Windows;
-    using System.Windows.Interactivity;
+    using Microsoft.Xaml.Behaviors;
+    using EventTrigger = Microsoft.Xaml.Behaviors.EventTrigger;
 #endif
 
 #if WINDOWS_PHONE

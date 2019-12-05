@@ -2,7 +2,8 @@
     using System;
     using System.ComponentModel;
     using System.Windows;
-    using System.Windows.Interactivity;
+    using Microsoft.Xaml.Behaviors;
+    using EventTrigger = Microsoft.Xaml.Behaviors.EventTrigger;
 
     /// <summary>
     /// Represents a parameter of an <see cref="ActionMessage"/>.
