@@ -1,21 +1,19 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
   <PropertyGroup>
-    <ProjectGuid>{EF2C0C7D-3FFE-4884-9AAC-7622FEE66809}</ProjectGuid>
+    <ProjectGuid>{5198B87D-8E7B-48D9-960D-63170A6956C5}</ProjectGuid>
     <RootNamespace>Caliburn.Micro</RootNamespace>
-    <AssemblyName>Caliburn.Micro</AssemblyName>
-    <TargetFramework>net45</TargetFramework>
-    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <AssemblyName>Caliburn.Micro.Core</AssemblyName>
+    <TargetFrameworks>net45;netcoreapp3.0;netstandard2.0</TargetFrameworks>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-    <NoWarn>1572</NoWarn>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugType>full</DebugType>
-    <DefineConstants>TRACE;DEBUG;NET;NET45</DefineConstants>
+    <DefineConstants>TRACE;DEBUG;NET</DefineConstants>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
-    <DefineConstants>TRACE;NET;NET45</DefineConstants>
+    <DefineConstants>TRACE;NET</DefineConstants>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>true</SignAssembly>
@@ -30,11 +28,5 @@
     <None Include="..\Caliburn.snk">
       <Link>Caliburn.snk</Link>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="Expression.Blend.Sdk.WPF" Version="1.0.1" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Caliburn.Micro.Core\Caliburn.Micro.Core.csproj" />
   </ItemGroup>
 </Project>
