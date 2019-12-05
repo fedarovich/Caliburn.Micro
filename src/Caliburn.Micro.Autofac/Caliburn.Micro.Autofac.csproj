@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net45;netcoreapp3.0</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Caliburn.Micro.AutofacBootstrap</PackageId>
+    <Version>3.3.0</Version>
+    <Authors>Brendan Kowitz, David Buksbaum, Ziya SARIKAYA</Authors>
+    <PackageTags>Caliburn.Micro Autofac IoC DI MVVM</PackageTags>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <Description>Provides an Autofac enabled bootstrapper for Caliburn.Micro.</Description>
+    <Product>Caliburn.Micro.AutofacBootstrap</Product>
+    <Company>Brendan Kowitz</Company>
+    <PackageProjectUrl>https://github.com/brendankowitz/Caliburn.Micro.Autofac</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Caliburn.Micro\Caliburn.Micro.csproj" />
+  </ItemGroup>
+
+</Project>
