@@ -5,7 +5,6 @@
     <AssemblyName>Caliburn.Micro</AssemblyName>
     <TargetFrameworks>net45;netcoreapp3.0</TargetFrameworks>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <NoWarn>1572</NoWarn>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
@@ -22,10 +21,16 @@
   </PropertyGroup>
   <PropertyGroup>
     <AssemblyOriginatorKeyFile>..\Caliburn.snk</AssemblyOriginatorKeyFile>
+    <Authors>Rob Eisenberg, Marco Amendola, Chin Bae, Ryan Cromwell, Nigel Sampson, Thomas Ibel, Matt Hidinger</Authors>
+    <Copyright>Copyright (c) 2010 Blue Spire Consulting, Inc.</Copyright>
+    <Company>Blue Spire Consulting, Inc.</Company>
+    <Version>3.3.0</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <PackageTags>MVVM Silverlight WPF WP8 WinRT Metro SL5 SL MVC CoC Convention MVP PM Screen Coroutine Behavior Model-View-ViewModel Presentation UI ViewModel Phone Caliburn</PackageTags>
+    <Description>A small, yet powerful framework designed for Xaml platforms, Caliburn.Micro implements a variety of UI patterns for solving real-world problems. Patterns that are highlighted include MVVM (Presentation Model), MVP and MVC.</Description>
+    <PackageProjectUrl>http://caliburnmicro.com/</PackageProjectUrl>
   </PropertyGroup>
-  <ItemGroup>
-    <Compile Include="..\GlobalAssemblyInfo.cs" Link="Properties\GlobalAssemblyInfo.cs" />
-  </ItemGroup>
   <ItemGroup>
     <None Include="..\Caliburn.snk">
       <Link>Caliburn.snk</Link>
